@@ -1,0 +1,11 @@
+# The git info for company
+Host qdjr.git.zhudb.com                 # 写公司git 地址
+HostName qdjr.git.zhudb.com             # 写公司git 地址
+User git                                # 可以写邮箱名称，也可以写 git 账号
+IdentityFile ~/.ssh/company/id_rsa      #对应公司 git 账号密钥路径，注意不要写错
+
+# The git info for github           
+Host github.com                             # 写 github 的地址
+HostName github.com                         # 写 github 的地址
+User git                                    # 可以写邮箱名称，也可以写 git 账号
+IdentityFile ~/.ssh/github/id_rsa_github    # 对应github 密钥路径，注意不要写错
